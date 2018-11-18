@@ -16,7 +16,7 @@ const styles = {
   }
 };
 
-class TemporaryDrawer extends React.Component {
+class Sidebar extends React.Component {
   state = {
     left: false
   };
@@ -34,8 +34,9 @@ class TemporaryDrawer extends React.Component {
       <div className={classes.list}>
         <List>
           {['Scoreboard'].map((text, index) => (
-            <ListItem button key={text}>
+            <ListItem key={text} button component="a" href="/scores">
               <ListItemText primary={text} />
+              {/* <a href="/scores">Maybe scores?</a> */}
             </ListItem>
           ))}
         </List>
@@ -78,8 +79,8 @@ class TemporaryDrawer extends React.Component {
   }
 }
 
-TemporaryDrawer.propTypes = {
+Sidebar.propTypes = {
   classes: PropTypes.object.isRequired
 };
 
-export default withStyles(styles)(TemporaryDrawer);
+export default withStyles(styles)(Sidebar);
