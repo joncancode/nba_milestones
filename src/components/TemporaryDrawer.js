@@ -33,7 +33,7 @@ class TemporaryDrawer extends React.Component {
     const sideList = (
       <div className={classes.list}>
         <List>
-          {['Current Scoreboard'].map((text, index) => (
+          {['Scoreboard'].map((text, index) => (
             <ListItem button key={text}>
               <ListItemText primary={text} />
             </ListItem>
@@ -58,7 +58,7 @@ class TemporaryDrawer extends React.Component {
           style={{ fontSize: '32px', marginRight: '25px' }}
           onClick={this.toggleDrawer('left', true)}
         >
-          🏀
+          <span role="img" aria-label="open-drawer">🏀</span>
         </Button>
         <Drawer
           open={this.state.left}
