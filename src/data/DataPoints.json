@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Kareem Abdul-Jabbar",
+    "points": 38387
+  },
+  {
+    "id": 2,
+    "name": "Karl Malone",
+    "points": 36928
+  },
+  {
+    "id": 3,
+    "name": "Kobe Bryant",
+    "points": 33643
+  },
+  {
+    "id": 4,
+    "name": "Michael Jordan",
+    "points": 32292
+  },
+  {
+    "id": 5,
+    "name": "LeBron James",
+    "points": 31425
+  },
+  {
+    "id": 6,
+    "name": "Wilt Chamberlain",
+    "points": 31419
+  },
+  {
+    "id": 7,
+    "name": "Dirk Nowitzki",
+    "points": 31187
+  },
+  {
+    "id": 8,
+    "name": "Julius Erving",
+    "points": 203518
+  },
+  {
+    "id": 9,
+    "name": "Shaquille O'Neal",
+    "points": 28596
+  },
+  {
+    "id": 10,
+    "name": "Moses Malone",
+    "points": 27409
+  }
+]

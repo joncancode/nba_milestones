@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "name": "Wilt Chamberlain",
+      "rebounds": 23924
+    },
+    {
+      "id": 2,
+      "name": "Bill Russell",
+      "rebounds": 21620
+    },
+    {
+      "id": 3,
+      "name": "Moses Malone",
+      "rebounds": 17834
+    },
+    {
+      "id": 4,
+      "name": "Kareem Abdul-Jabbar",
+      "rebounds": 17440
+    },
+    {
+      "id": 5,
+      "name": "Artis Gilmore",
+      "rebounds": 16330
+    },
+    {
+      "id": 6,
+      "name": "Elvin Hayes",
+      "rebounds": 16279
+    },
+    {
+      "id": 7,
+      "name": "Tim Duncan",
+      "rebounds": 15091
+    },
+    {
+      "id": 8,
+      "name": "Karl Malone",
+      "rebounds": 14968
+    },
+    {
+      "id": 9,
+      "name": "Robert Parish",
+      "rebounds": 14715
+    },
+    {
+      "id": 10,
+      "name": "Kevin Garnett",
+      "rebounds": 14662
+    }
+]

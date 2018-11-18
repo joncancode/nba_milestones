@@ -13,3 +13,26 @@ it would be cool to have a triple double tracker, but instead of total stats lik
 
 maybe use the gamelog for him? this has last 3 games of stats!
 http://data.nba.net/10s/prod/v1/2018/players/201566_gamelog.json
+
+
+Rank	Player	PTS
+1.	Kareem Abdul-Jabbar*	38387
+2.	Karl Malone*	36928
+3.	Kobe Bryant	33643
+4.	Michael Jordan*	32292
+5.	LeBron James	31425
+6.	Wilt Chamberlain*	31419
+7.	Dirk Nowitzki	31187
+8.	Julius Erving*	30026
+9.	Moses Malone*	29580
+10.	Shaquille O'Neal*	28596
+11.	Dan Issel*	27482
+12.	Elvin Hayes*	27313
+13.	Hakeem Olajuwon*	26946
+14.	Oscar Robertson*	26710
+15.	Dominique Wilkins*	26668
+16.	George Gervin*	26595
+17.	Tim Duncan	26496
+18.	Paul Pierce	26397
+19.	John Havlicek*	26395
+20.	Kevin Garnett	26071

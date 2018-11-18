@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "name": "John Stockton",
+      "assists": 15806
+    },
+    {
+      "id": 2,
+      "name": "Jason Kidd",
+      "assists": 12091
+    },
+    {
+      "id": 3,
+      "name": "Steve Nash",
+      "assists": 10335
+    },
+    {
+      "id": 4,
+      "name": "Mark Jackson",
+      "assists": 10334
+    },
+    {
+      "id": 5,
+      "name": "Magic Johnson",
+      "assists": 10141
+    },
+    {
+      "id": 6,
+      "name": "Oscar Robinson",
+      "assists": 9887
+    },
+    {
+      "id": 7,
+      "name": "Isiah Thomas",
+      "assists": 9061
+    },
+    {
+      "id": 8,
+      "name": "Gary Payton",
+      "assists": 8966
+    },
+    {
+      "id": 9,
+      "name": "Chris Paul",
+      "assists": 8798
+    },
+    {
+      "id": 10,
+      "name": "Andre Miller",
+      "assists": 8524
+    }
+]
