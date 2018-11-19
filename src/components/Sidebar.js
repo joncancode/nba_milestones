@@ -26,7 +26,7 @@ class Sidebar extends React.Component {
       [side]: open
     });
   };
-
+  
   render() {
     const { classes } = this.props;
 
@@ -35,20 +35,21 @@ class Sidebar extends React.Component {
         <List>
           {['Scoreboard'].map((text, index) => (
             <ListItem key={text} button component="a" href="/scores">
-              <ListItemText primary={text} />
-              {/* <a href="/scores">Maybe scores?</a> */}
+              <ListItemText primary="Current Scoreboard" />
             </ListItem>
           ))}
         </List>
         <Divider />
         <List>
-          {['Points', 'Assists', 'Rebounds', 'Blocks', 'Steals'].map(
-            (text, index) => (
-              <ListItem button key={text}>
-                <ListItemText primary={text} />
-              </ListItem>
-            )
-          )}
+            <ListItem key="points" button component="a" href="/points">
+              <ListItemText primary="Points" />
+            </ListItem>
+            <ListItem key="assists" button component="a" href="/assists">
+              <ListItemText primary="Assists" />
+            </ListItem>
+            <ListItem key="rebounds" button component="a" href="/rebounds">
+              <ListItemText primary="Rebounds" />
+            </ListItem>
         </List>
       </div>
     );
