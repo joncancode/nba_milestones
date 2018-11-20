@@ -15,7 +15,7 @@ class App extends Component {
           <div className="App">
             <NavBar/>
             <Switch>
-              <Route exact path="/scores" component={Scores} />
+              <Route exact path="/" component={Scores} />
               <Route exact path="/assists" component={DataAssists} />
               <Route exact path="/points" component={DataPoints} />
               <Route exact path="/rebounds" component={DataRebounds} />
