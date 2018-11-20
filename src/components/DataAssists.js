@@ -4,7 +4,7 @@ export class DataPoints extends Component {
   render() {
     return (
       <div>
-        <h2>assists go here</h2>
+        <h2>assists: under construction</h2>
       </div>
     )
   }

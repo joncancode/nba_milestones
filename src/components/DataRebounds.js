@@ -4,7 +4,7 @@ export class DataRebounds extends Component {
   render() {
     return (
       <div>
-        <h2>rebs go here</h2>
+        <h2>rebounds: under construction</h2>
       </div>
     )
   }
