@@ -34,8 +34,8 @@ class Sidebar extends React.Component {
       <div className={classes.list}>
         <List>
           {['Scoreboard'].map((text, index) => (
-            <ListItem key={text} button component="a" href="/scores">
-              <ListItemText primary="Current Scoreboard" />
+            <ListItem key={text} button component="a" href="/">
+              <ListItemText primary="Scoreboard" />
             </ListItem>
           ))}
         </List>

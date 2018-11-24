@@ -15,10 +15,10 @@ class App extends Component {
           <div className="App">
             <NavBar />
             <Switch>
-              <Route  component={Scores} />
-              <Route  component={DataAssists} />
-              <Route  component={DataPoints} />
-              <Route  component={DataRebounds} />
+              <Route exact path="/" component={Scores} />
+              <Route exact path="/assists" component={DataAssists} />
+              <Route exact path="/points" component={DataPoints} />
+              <Route exact path="/rebounds" component={DataRebounds} />
             </Switch>
           </div>
         </MuiThemeProvider>

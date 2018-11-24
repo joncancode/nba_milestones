@@ -50,7 +50,7 @@ class Scores extends Component {
               ) {
                 gameTime = <p style={{ fontWeight: 'bold' }}>FINAL</p>;
               }
-              if (res.data.games[i].isGameActivated === false && hScore === '0') {
+              if (res.data.games[i].isGameActivated === false && hScore === '') {
                 gameTime = <p>tip-off {res.data.games[i].startTimeEastern}</p>;
               }
               return (
