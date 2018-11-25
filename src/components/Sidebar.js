@@ -9,6 +9,7 @@ import {
   ListItemText,
   Divider
 } from '@material-ui/core';
+import DataAssists from './DataAssists';
 
 const styles = {
   list: {
@@ -34,23 +35,23 @@ class Sidebar extends React.Component {
       <div className={classes.list}>
         <List>
           {['Scoreboard'].map((text, index) => (
-            <ListItem key={text} button component="a" href="/">
+            <ListItem key={text} button component="a" href="#/">
               <ListItemText primary="Scoreboard" />
             </ListItem>
-          ))}
-        </List>
-        <Divider />
-        <List>
-            <ListItem key="points" button component="a" href="/points">
-              <ListItemText primary="Points" />
-            </ListItem>
-            <ListItem key="assists" button component="a" href="/assists">
-              <ListItemText primary="Assists" />
-            </ListItem>
-            <ListItem key="rebounds" button component="a" href="/rebounds">
-              <ListItemText primary="Rebounds" />
-            </ListItem>
-        </List>
+           ))}
+          </List>
+         <Divider />
+         <List>
+             <ListItem key="points" button component="a" href="#/points">
+               <ListItemText primary="Points" />
+             </ListItem>
+             <ListItem key="assists" button component="a" href="#/assists">
+               <ListItemText primary="Assists" />
+             </ListItem>
+             <ListItem key="rebounds" button component="a" href="#/rebounds">
+               <ListItemText primary="Rebounds" />
+             </ListItem>
+        </List> 
       </div>
     );
 

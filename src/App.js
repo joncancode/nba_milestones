@@ -5,7 +5,7 @@ import Scores from './components/Scores';
 import DataAssists from './components/DataAssists';
 import DataPoints from './components/DataPoints';
 import DataRebounds from './components/DataRebounds';
-import { BrowserRouter as HashRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 
 class App extends Component {
   render() {
@@ -15,10 +15,11 @@ class App extends Component {
           <div className="App">
             <NavBar />
             <Switch>
-              <Route exact path="/nba_milestones/" component={Scores} />
-              <Route exact path="/nba_milestones/assists" component={DataAssists} />
-              <Route exact path="/nba_milestones/points" component={DataPoints} />
-              <Route exact path="/nba_milestones/rebounds" component={DataRebounds} />
+              <Route exact path="/" component={Scores} />
+              <Route exact path="/scoreboard" component={Scores} />
+              <Route exact path="/assists" component={DataAssists} />
+              <Route exact path="/points" component={DataPoints} />
+              <Route exact path="/rebounds" component={DataRebounds} />
             </Switch>
           </div>
         </MuiThemeProvider>
