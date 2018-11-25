@@ -5,12 +5,12 @@ import Scores from './components/Scores';
 import DataAssists from './components/DataAssists';
 import DataPoints from './components/DataPoints';
 import DataRebounds from './components/DataRebounds';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as HashRouter, Route, Switch } from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
-      <Router>
+      <HashRouter>
         <MuiThemeProvider>
           <div className="App">
             <NavBar />
@@ -22,7 +22,7 @@ class App extends Component {
             </Switch>
           </div>
         </MuiThemeProvider>
-      </Router>
+      </HashRouter>
     );
   }
 }
