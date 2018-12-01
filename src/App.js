@@ -5,6 +5,8 @@ import Scores from './components/Scores';
 import DataAssists from './components/DataAssists';
 import DataPoints from './components/DataPoints';
 import DataRebounds from './components/DataRebounds';
+import LebronTracker from './components/LebronTracker';
+import NotFound from './components/NotFound';
 import { HashRouter, Route, Switch } from 'react-router-dom';
 
 class App extends Component {
@@ -20,6 +22,8 @@ class App extends Component {
               <Route exact path="/assists" component={DataAssists} />
               <Route exact path="/points" component={DataPoints} />
               <Route exact path="/rebounds" component={DataRebounds} />
+              <Route exact path="/lebron" component={LebronTracker} />
+              <Route path="*" component={NotFound} />
             </Switch>
           </div>
         </MuiThemeProvider>

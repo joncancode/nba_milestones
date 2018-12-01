@@ -9,7 +9,6 @@ import {
   ListItemText,
   Divider
 } from '@material-ui/core';
-import DataAssists from './DataAssists';
 
 const styles = {
   list: {
@@ -21,13 +20,13 @@ class Sidebar extends React.Component {
   state = {
     left: false
   };
-  
+
   toggleDrawer = (side, open) => () => {
     this.setState({
       [side]: open
     });
   };
-  
+
   render() {
     const { classes } = this.props;
 
@@ -38,11 +37,17 @@ class Sidebar extends React.Component {
             <ListItem key={text} button component="a" href="#/">
               <ListItemText primary="Scoreboard" />
             </ListItem>
-           ))}
-          </List>
-         <Divider />
-         <List>
-             <ListItem key="points" button component="a" href="#/points">
+          ))}
+        </List>
+        <Divider />
+        <List>
+          <ListItem key="scores" button component="a" href="#/">
+            <ListItemText primary="Scoreboard" />
+          </ListItem>
+          <ListItem key="lebron" button component="a" href="#/lebron">
+            <ListItemText primary="Lebron Tracker" />
+          </ListItem>
+          {/* <ListItem key="points" button component="a" href="#/points">
                <ListItemText primary="Points" />
              </ListItem>
              <ListItem key="assists" button component="a" href="#/assists">
@@ -50,8 +55,8 @@ class Sidebar extends React.Component {
              </ListItem>
              <ListItem key="rebounds" button component="a" href="#/rebounds">
                <ListItemText primary="Rebounds" />
-             </ListItem>
-        </List> 
+             </ListItem> */}
+        </List>
       </div>
     );
 
@@ -61,7 +66,9 @@ class Sidebar extends React.Component {
           style={{ fontSize: '32px', marginRight: '25px' }}
           onClick={this.toggleDrawer('left', true)}
         >
-          <span role="img" aria-label="open-drawer">🏀</span>
+          <span role="img" aria-label="open-drawer">
+            🏀
+          </span>
         </Button>
         <Drawer
           open={this.state.left}

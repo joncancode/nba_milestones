@@ -12,7 +12,7 @@ const NavBar = () => (
     <Toolbar>
       <Sidebar/>
       <Typography variant="title" color="inherit">
-        NBA Data
+        NBA Milestones
       </Typography>
     </Toolbar>
   </AppBar>

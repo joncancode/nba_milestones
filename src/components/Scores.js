@@ -19,7 +19,14 @@ class Scores extends Component {
     const year = new Date().getFullYear();
     const month = new Date().getMonth() + 1;
     const day = new Date().getDate();
-    const date = `${year}${month}${day}`;
+    let date;
+    if(day < 10){
+      date = `${year}${month}0${day}`;
+    } 
+    if(day > 9){
+      date = `${year}${month}${day}`;
+    } 
+
     this.setState(
       {
         date,
@@ -30,7 +37,7 @@ class Scores extends Component {
           .get(`https://cors-anywhere.herokuapp.com/${this.state.apiUrl}`)
           .then(res => {
             const games = res.data.games.map(function(item, i) {
-              console.log(res.data.games);
+              console.log('games in axios', res.data.games);
               const visTeam = res.data.games[i].vTeam.triCode;
               const homeTeam = res.data.games[i].hTeam.triCode;
               const vScore = res.data.games[i].vTeam.score;
