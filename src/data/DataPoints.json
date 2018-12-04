@@ -19,21 +19,17 @@
     "points": 32292,
     "isActive": false
   },
-  {
-    "name": "LeBron James",
-    "points": 31425,
-    "isActive": true
-  },
+
+  
+  
   {
     "name": "Wilt Chamberlain",
     "points": 31419,
     "isActive": false
   },
-  {
-    "name": "Dirk Nowitzki",
-    "points": 31187,
-    "isActive": true
-  },
+
+
+
   {
     "name": "Julius Erving",
     "points": 203518,

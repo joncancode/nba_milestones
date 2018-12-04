@@ -36,3 +36,56 @@ Rank	Player	PTS
 18.	Paul Pierce	26397
 19.	John Havlicek*	26395
 20.	Kevin Garnett	26071
+
+[
+  {
+    "name": "Kareem Abdul-Jabbar",
+    "points": 38387,
+    "isActive": false
+  },
+  {
+    "name": "Karl Malone",
+    "points": 36928,
+    "isActive": false
+  },
+  {
+    "name": "Kobe Bryant",
+    "points": 33643,
+    "isActive": false
+  },
+  {
+    "name": "Michael Jordan",
+    "points": 32292,
+    "isActive": false
+  },
+  {
+    "name": "LeBron James",
+    "points": 31425,
+    "isActive": true
+  },
+  {
+    "name": "Wilt Chamberlain",
+    "points": 31419,
+    "isActive": false
+  },
+  {
+    "name": "Dirk Nowitzki",
+    "points": 31187,
+    "isActive": true
+  },
+  {
+    "name": "Julius Erving",
+    "points": 203518,
+    "isActive": false
+  },
+  {
+    "name": "Shaquille O'Neal",
+    "points": 28596,
+    "isActive": false
+  },
+  {
+    "name": "Moses Malone",
+    "points": 27409,
+    "isActive": false
+  }
+]
