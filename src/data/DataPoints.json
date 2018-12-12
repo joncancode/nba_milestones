@@ -18,31 +18,6 @@
     "name": "Michael Jordan",
     "points": 32292,
     "isActive": false
-  },
-
-  
-  
-  {
-    "name": "Wilt Chamberlain",
-    "points": 31419,
-    "isActive": false
-  },
-
-
-
-  {
-    "name": "Julius Erving",
-    "points": 203518,
-    "isActive": false
-  },
-  {
-    "name": "Shaquille O'Neal",
-    "points": 28596,
-    "isActive": false
-  },
-  {
-    "name": "Moses Malone",
-    "points": 27409,
-    "isActive": false
   }
 ]
+
