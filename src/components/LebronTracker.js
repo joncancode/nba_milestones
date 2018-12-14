@@ -26,9 +26,10 @@ export class LebronTracker extends Component {
   }
 
   render() {
+    console.log('this.state', this.state)
     return (
       <div>
-        <h2>THE GOAT: under construction {this.state.lebronPoints}</h2>
+        <h2>Lebron James currently has {this.state.lebronPoints} points</h2>
       </div>
     )
   }
