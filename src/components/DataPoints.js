@@ -3,7 +3,7 @@ import points from '../data/DataPoints.json';
 import Card from '@material-ui/core/Card';
 import LebronTracker from './LebronTracker';
 
-const cardStyle = {
+const styles = {
   notActive: {
     margin: '0 auto',
     display: 'inline-block',
@@ -20,7 +20,7 @@ const cardStyle = {
   }
 };
 
-let pointsArr = points;
+const pointsArr = points;
 
 export class DataPoints extends Component {
   state = {
@@ -35,7 +35,7 @@ export class DataPoints extends Component {
 
   points = this.state.points.map(function(item, i) {
     return (
-      <Card className="notActive" style={cardStyle.notActive} key={i}>
+      <Card className="notActive" style={styles.notActive} key={i}>
         {item.name}<br/> {item.points.toLocaleString('en', { useGrouping: true })}
       </Card>
     );
@@ -45,7 +45,7 @@ export class DataPoints extends Component {
     return (
       <div>
         <LebronTracker pointTotal={this.lebronPoints} />
-        <div style={cardStyle.cardGroup}>
+        <div style={styles.cardGroup}>
         {this.points}
       </div>
       </div>
