@@ -13,6 +13,7 @@ class Scores extends Component {
   }
   componentWillMount() {
     this.getDate();
+
   }
 
   getDate = () => {
@@ -21,16 +22,16 @@ class Scores extends Component {
     const day = new Date().getDate();
     let date;
     if(day < 10){
-      date = `${year}${month}0${day}`;
+      date = `${year}0${month}0${day}`;
     } 
     if(day > 9){
       date = `${year}${month}${day}`;
     } 
-
     this.setState(
       {
         date,
-        apiUrl: `http://data.nba.com/data/15m/prod/v1/${date}/scoreboard.json`
+        apiUrl: `http://data.nba.net/10s/prod/v1/${date}/scoreboard.json`
+
       },
       () => {
         axios
