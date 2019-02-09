@@ -41,16 +41,15 @@ class Sidebar extends React.Component {
         </List>
         <Divider />
         <List>
-          <ListItem key="points" button component="a" href="#/points">
-               <ListItemText primary="Points" />
+          <ListItem key="lebron" button component="a" href="#/lebron">
+               <ListItemText primary="Lebron Tracker" />
              </ListItem>
-             {/* 
-             <ListItem key="assists" button component="a" href="#/assists">
-               <ListItemText primary="Assists" />
+        </List>
+        <Divider />
+        <List>
+          <ListItem key="teams" button component="a" href="#/teams">
+               <ListItemText primary="Team Data" />
              </ListItem>
-             <ListItem key="rebounds" button component="a" href="#/rebounds">
-               <ListItemText primary="Rebounds" />
-             </ListItem> */}
         </List>
       </div>
     );

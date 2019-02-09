@@ -2,10 +2,8 @@ import React, { Component } from 'react';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import NavBar from './components/NavBar';
 import Scores from './components/Scores';
-import DataAssists from './components/DataAssists';
 import DataPoints from './components/DataPoints';
-import DataRebounds from './components/DataRebounds';
-import LebronTracker from './components/LebronTracker';
+import TeamTracker from './components/TeamTracker';
 import NotFound from './components/NotFound';
 import { HashRouter, Route, Switch } from 'react-router-dom';
 
@@ -19,10 +17,8 @@ class App extends Component {
             <Switch>
               <Route exact path="/" component={Scores} />
               <Route exact path="/scoreboard" component={Scores} />
-              <Route exact path="/assists" component={DataAssists} />
-              <Route exact path="/points" component={DataPoints} />
-              <Route exact path="/rebounds" component={DataRebounds} />
-              <Route exact path="/lebron" component={LebronTracker} />
+              <Route exact path="/lebron" component={DataPoints} />
+              <Route exact path="/teams" component={TeamTracker} />
               <Route path="*" component={NotFound} />
             </Switch>
           </div>

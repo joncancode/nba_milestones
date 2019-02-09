@@ -27,10 +27,6 @@ export class LebronTracker extends Component {
       axios
         .get(`https://cors-anywhere.herokuapp.com/${lebronApiUrl}`)
         .then(res => {
-          console.log(
-            'lebron total points',
-            res.data.league.standard.stats.careerSummary.points
-          );
           this.setState({
             lebronPoints: res.data.league.standard.stats.careerSummary.points
           });
@@ -40,7 +36,6 @@ export class LebronTracker extends Component {
   }
 
   render() {
-    console.log('this.state', this.state);
 
     let diffKareem = this.state.points[0].points - this.state.lebronPoints;
     let diffMalone = this.state.points[1].points - this.state.lebronPoints;

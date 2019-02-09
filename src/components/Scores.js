@@ -38,7 +38,6 @@ class Scores extends Component {
           .get(`https://cors-anywhere.herokuapp.com/${this.state.apiUrl}`)
           .then(res => {
             const games = res.data.games.map(function(item, i) {
-              console.log('games in axios', res.data.games);
               const visTeam = res.data.games[i].vTeam.triCode;
               const homeTeam = res.data.games[i].hTeam.triCode;
               const vScore = res.data.games[i].vTeam.score;
