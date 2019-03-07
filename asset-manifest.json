@@ -1,13 +1,13 @@
 {
   "main.css": "/nba_milestones/static/css/main.82b99e54.chunk.css",
-  "main.js": "/nba_milestones/static/js/main.f2567d8f.chunk.js",
-  "main.js.map": "/nba_milestones/static/js/main.f2567d8f.chunk.js.map",
-  "static/js/1.4addf505.chunk.js": "/nba_milestones/static/js/1.4addf505.chunk.js",
-  "static/js/1.4addf505.chunk.js.map": "/nba_milestones/static/js/1.4addf505.chunk.js.map",
+  "main.js": "/nba_milestones/static/js/main.e4cc314e.chunk.js",
+  "main.js.map": "/nba_milestones/static/js/main.e4cc314e.chunk.js.map",
+  "static/js/1.29f76209.chunk.js": "/nba_milestones/static/js/1.29f76209.chunk.js",
+  "static/js/1.29f76209.chunk.js.map": "/nba_milestones/static/js/1.29f76209.chunk.js.map",
   "runtime~main.js": "/nba_milestones/static/js/runtime~main.27f97377.js",
   "runtime~main.js.map": "/nba_milestones/static/js/runtime~main.27f97377.js.map",
   "static/css/main.82b99e54.chunk.css.map": "/nba_milestones/static/css/main.82b99e54.chunk.css.map",
   "index.html": "/nba_milestones/index.html",
-  "precache-manifest.92754b4edef8da5f88a5e5a4849c586e.js": "/nba_milestones/precache-manifest.92754b4edef8da5f88a5e5a4849c586e.js",
+  "precache-manifest.c7e609e64b0e6145a56b0adea9247593.js": "/nba_milestones/precache-manifest.c7e609e64b0e6145a56b0adea9247593.js",
   "service-worker.js": "/nba_milestones/service-worker.js"
 }
