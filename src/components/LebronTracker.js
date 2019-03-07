@@ -40,7 +40,6 @@ export class LebronTracker extends Component {
     let diffKareem = this.state.points[0].points - this.state.lebronPoints;
     let diffMalone = this.state.points[1].points - this.state.lebronPoints;
     let diffKobe = this.state.points[2].points - this.state.lebronPoints;
-    let diffMJ = this.state.points[3].points - this.state.lebronPoints;
 
     return (
       <div style={styles.lebronTracker}>
@@ -56,10 +55,6 @@ export class LebronTracker extends Component {
         <h4>
           He is {diffKobe.toLocaleString('en', { useGrouping: true })} points
           away from {this.state.points[2].name}
-        </h4>
-        <h4>
-          He is {diffMJ.toLocaleString('en', { useGrouping: true })} points away
-          from {this.state.points[3].name}
         </h4>
       </div>
     );

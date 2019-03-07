@@ -7,16 +7,16 @@ const styles = {
   notActive: {
     margin: '0 auto',
     display: 'inline-block',
-    marginBottom: '10px',
     width: '20%',
     textAlign: 'center',
-    padding: '25px',
+    padding: '3em',
   },
   cardGroup: {
     width: '100%',
     bottom: '0',
     position: 'fixed',
-    border: '2px solid indigo'
+    border: '2px solid indigo',
+    textAlign: 'center'
   }
 };
 
